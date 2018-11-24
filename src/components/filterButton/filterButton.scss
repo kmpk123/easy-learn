@@ -1,0 +1,15 @@
+@import '../../variables.scss';
+
+.filter-button {
+    padding: 10px 20px;
+    border: 1px solid $box-border-color;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: white;
+
+    &.selected {
+        background-color: $selected-background-color;
+        color: white;
+    }
+}

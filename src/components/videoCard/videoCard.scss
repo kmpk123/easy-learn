@@ -1,0 +1,35 @@
+
+.video-card-wrapper {
+    margin: 20px;
+    margin-bottom: 0px;
+    width: 270px;
+    display: inline-block;
+    position: relative;
+
+    .video-thumbnail-wrapper {
+        -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+
+        .video-thumbnail {
+            height: 150px;
+            width: 100%;
+            object-fit: fill;
+            cursor: pointer;
+        }
+    }
+
+    .video-meta-data {
+        padding: 15px 5px;
+
+        .title {
+            color: black;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .description {
+        
+        }
+    }
+}
